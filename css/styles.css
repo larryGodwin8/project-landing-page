@@ -1,12 +1,19 @@
 body{
 background: #f2f2f2;
 }
-
 .container{
+    width: fit-content;
+    
+}
+
+.log{
     position: absolute;
     width: 219px;
     height: 56px;
     left: 1056px;
     top: 50px;
+    border: 2px solid #f2f2f2;
+    color: #000;
+    margin-top: 5px;
 
 }
