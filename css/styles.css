@@ -1,0 +1,12 @@
+body{
+background: #f2f2f2;
+}
+
+.container{
+    position: absolute;
+    width: 219px;
+    height: 56px;
+    left: 1056px;
+    top: 50px;
+
+}
