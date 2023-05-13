@@ -3,17 +3,30 @@ background: #f2f2f2;
 }
 .container{
     width: fit-content;
+    position: absolute;
+    height: 32px;
+    left: 10.73%;
+    right: 11.19%;
+    top: calc(50% - 32px/2);
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #172339;
+    box-sizing: border-box;
     
 }
 
 .log{
-    position: absolute;
-    width: 219px;
-    height: 56px;
-    left: 1056px;
-    top: 50px;
-    border: 2px solid #f2f2f2;
-    color: #000;
-    margin-top: 5px;
+box-sizing: border-box;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+
 
 }
