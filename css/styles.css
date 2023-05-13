@@ -15,6 +15,7 @@ background: #f2f2f2;
     line-height: 32px;
     letter-spacing: -0.16px;
     color: #172339;
+    text-align: right;
     
 }
 
@@ -27,7 +28,11 @@ top: 0%;
 bottom: 0%;
 border: 1px solid #172339;
 border-radius: 6px;
+text-align: right;
 
 
+}
 
+.header{
+    position: absolute;
 }
