@@ -4,18 +4,18 @@
   box-sizing: border-box;
 }
 
-header {
+body {
   border: 1px dashed black;
 }
 body {
-  background: #FAF8F6;
+  background: #faf8f6;
   width: 90%;
   margin: 20px auto;
 }
 
 /* Stying the suite logo */
 .logo {
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: bold;
@@ -30,15 +30,26 @@ body {
   background-color: transparent;
   color: #172339;
   border: 1px solid #172339;
-  font-family: 'Epilogue', sans-serif;
+  font-family: "Epilogue", sans-serif;
   font-size: 10px5;
   padding: 8px 16px;
   text-align: center;
   border-radius: 4px;
-  
-
 }
 
+/*styling the header 3*/
+.heading-xl {
+  text-align: left;
+  font-family: "Epilogue";
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+}
+
+.div2 {
+  float: right;
+}
 .container {
   width: fit-content;
   height: 32px;
