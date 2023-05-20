@@ -13,8 +13,30 @@ body {
   margin: 20px auto;
 }
 
+/* Stying the suite logo */
 .logo {
-  font-family: ;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  color: #172339;
+}
+
+/* Styling the Secondary default button */
+.secondary-button {
+  float: right;
+  background-color: transparent;
+  color: #172339;
+  border: 1px solid #172339;
+  font-family: 'Epilogue', sans-serif;
+  font-size: 10px5;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+  
+
 }
 
 .container {
