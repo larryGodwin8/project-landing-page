@@ -41,14 +41,42 @@ body {
 .heading-xl {
   text-align: left;
   font-family: "Epilogue";
-  font-size: 48px;
+  font-size: 32px;
   font-weight: bold;
-  line-height: 48px;
+  line-height: 32px;
   letter-spacing: -0.5px;
 }
-
+.div1 {
+  float: left;
+}
+.div-a {
+  font-size: 24px;
+}
 .div2 {
+  float: left;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  font-family: "Epilogue", sans-serif;
+  font-size: 8px;
+  padding: 8px 16px;
+  text-align: center;
+  border-radius: 4px;
+}
+.img-1 {
+  border-radius: 8px;
+  padding: 5px;
+  width: 350px;
+  height: auto;
+  left: 659px;
+  right: 151px;
+  max-width: 100%;
+}
+
+.div3 {
   float: right;
+  line-height: 24px;
+  letter-spacing: -0.2px;
 }
 .container {
   width: fit-content;
