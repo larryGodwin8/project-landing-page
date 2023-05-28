@@ -19,20 +19,19 @@
     <title>Frontend Mentor | Suite landing page</title>
   </head>
   <body>
-    <header>
-      <a href="" class="logo">Suite</a>
+    <header class="m-b">
+      <div class="logo">suite</div>
       <button class="secondary-button">Request Beta Access</button>
     </header>
-    <div class="hero m-b">
+    <section class="hero m-b">
       <div class="hero-1">
+        <img src="./assets/pattern-curved-line-1.svg" class="curved-line" />
         <p class="heading-xl m-b regular">
-          A <strong>super solution </strong><br />
-          for your <strong>business.</strong>
+          A <strong>super solution </strong> for your <strong>business.</strong>
         </p>
         <p class="m-b quote regular">
-          Our marketing and sales automations<br />
-          help you scale your outreach to get<br />
-          more leads for your company.
+          Our marketing and sales automations help you scale your outreach to
+          get more leads for your company.
         </p>
 
         <!-- Primary default button -->
@@ -40,38 +39,41 @@
       </div>
 
       <!-- div for image -->
-      <div class="hero-1">
-        <img src="./assets/image-hero-portrait.png" alt="image hero" />
+      <div class="hero-2">
+        <img src="./assets/image-hero-portrait.png" class="hero-image m-b" alt="image hero" />
+        <img src="./assets/image-hero-landscape.png" class="hero-image-mobile m-b" alt="image hero" />
       </div>
 
       <!-- 3rd div section -->
-      <div class="hero-1">
-        <p>
-          <strong>2K+</strong>
-          COMPANIES
+      <div class="hero-3">
+        <p class="m-b">
+          <strong class="heading-l">2K+</strong>
+          <span class="heading">COMPANIES</span>
         </p>
 
-        <p>
-          <strong>8</strong><br />
-          LANGUAGES
+        <p class="m-b">
+          <strong class="heading-l">8</strong>
+          <span class="heading">LANGUAGES</span>
         </p>
 
-        <p>
-          <strong>1.2</strong><br />
-          LEADS
+        <p class="m-b">
+          <strong class="heading-l">1.2</strong>
+          <span class="heading">LEADS</span>
         </p>
       </div>
-    </div>
+    </section>
 
     <!-- above the footer section -->
-    <section class="m-b">
-      <div>
-        <img src="./assets/image-jeremy-large.png" alt="image-jeremy" />
+    <section class="person-div m-b">
+      <div class="group-person">
+        <img src="./assets/pattern-blur.svg" alt="blur pattern" class="pattern-blur" />
+        <img src="./assets/image-jeremy-small.png" alt="image-jeremy" />
       </div>
-      <div>
-        <p>It just <strong>works.</strong><br /></p>
+      <div class="group-person-text">
+        <img src="./assets/pattern-curved-line-2.svg" class="curved-line-2 m-b">
+        <p class="m-b itjstwrk">It just <strong>works.</strong><br /></p>
 
-        <p>
+        <p class="m-b ireallylike">
           “I really like how it is an all-in-one<br />
           solution that handle many of the<br />
           tasks that you would normally need<br />
@@ -79,20 +81,18 @@
           This thing is a miracle worker.”<br /><br />
         </p>
 
-        <p>
-          Jeremy Robinson<br />
-          CMO, Fylo
-        </p>
+   <p class="m-b jeremy">JEREMY ROBINSON</p>
+  <p class=" m-b cmo">CMO, FYLO</p>
       </div>
     </section>
 
     <footer>
-      <a href="" class="logo m-b">Suite</a>
-      <p class="m-b">Copyright - Suite</p>
+      <div class="logo m-b">suite</div>
+      <p class="m-b copy">Copyright - Suite</p>
       <div class="m-b">
-        <img src="./assets/icon-facebook.svg" alt="facebook" />
-        <img src="./assets/icon-twitter.svg" alt="twitter" />
-        <img src="./assets/icon-instagram.svg" alt="instagram" />
+        <img class="face" src="./assets/icon-facebook.svg" alt="facebook" />
+        <img class="twit" src="./assets/icon-twitter.svg" alt="twitter" />
+        <img class="insta" src="./assets/icon-instagram.svg" alt="instagram" />
       </div>
     </footer>
   </body>
