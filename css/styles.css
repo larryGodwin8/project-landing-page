@@ -16,6 +16,11 @@ header {
   justify-content: space-between;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 /* TYPOGRAPHY */
 .bold {
   font-weight: bold;
@@ -159,6 +164,11 @@ header {
     margin: 20px auto;
   }
 
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .logo {
     font-family: "Epilogue", sans-serif;
     font-size: 32px;
@@ -227,23 +237,21 @@ header {
   }
 
   .person-div {
-    position: relative;
-    top: 150px;
     border-radius: 10px;
+    margin-top: 150px;
   }
   
   .group-person {
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
   }
 
   .group-person img {
     position: absolute;
-  }
-
-  .pattern-blur {
-    width: 100%;
+    width: 50%;
   }
 
   .group-person-text {
@@ -251,11 +259,58 @@ header {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
+    color: #FAF8F6;
   }
 
   .curved-line-2 {
-    position: absolute;
+    width: 10%;
+    margin: 0px auto 25px;
   }
 
+  .itjstwrk {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+  }
+
+  .ireallylike {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.09px;
+    color: #F3EDE7;
+  }
+
+  .social media {
+    position: absolute;
+    width: 116px;
+    height: 20px;
+    left: 4.5px;
+    top: 130px;
+
+  }
+
+  .face {
+    left: 3.6%;
+    right: 80.4%;
+    top: 86.67%;
+    bottom: 0%;
+  }
+  .copy {
+    font-family: Epilogue;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.08px;
+    text-align: center;
+    color: #49566d;
+
+  }
 }
