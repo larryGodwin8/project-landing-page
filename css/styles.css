@@ -240,7 +240,7 @@ footer {
     border-radius: 10px;
     margin-top: 150px;
   }
-  
+
   .group-person {
     position: relative;
     display: flex;
@@ -261,7 +261,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    color: #FAF8F6;
+    color: #faf8f6;
   }
 
   .curved-line-2 {
@@ -276,7 +276,7 @@ footer {
     font-size: 40px;
     line-height: 48px;
     letter-spacing: -0.416667px;
-    color: #FAF8F6;
+    color: #faf8f6;
   }
 
   .ireallylike {
@@ -286,24 +286,47 @@ footer {
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 0.09px;
-    color: #F3EDE7;
+    color: #f3ede7;
   }
 
-  .social media {
-    position: absolute;
-    width: 116px;
-    height: 20px;
-    left: 4.5px;
-    top: 130px;
+  .jeremy {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #faf8f6;
+  }
 
+  .cmo {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #f3ede7;
   }
 
   .face {
-    left: 3.6%;
-    right: 80.4%;
-    top: 86.67%;
-    bottom: 0%;
+    margin-left: 10px;
+    margin-right: 5px;
+    background: #172339;
   }
+
+  .twit{
+    margin-left: 10px;
+    margin-right: 5px;
+
+  }
+
+  .insta{
+    margin-left: 10px;
+    margin-right: 5px;
+
+  }
+
   .copy {
     font-family: Epilogue;
     font-size: 15px;
@@ -311,6 +334,5 @@ footer {
     letter-spacing: 0.08px;
     text-align: center;
     color: #49566d;
-
   }
 }
