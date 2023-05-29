@@ -202,10 +202,10 @@ footer {
   }
 
   .curved-line {
-    right: 65px;
-    position: absolute;
-    width: 40%;
-    top: -15px;
+    left: 50%;
+    position: relative;
+    width: 35%;
+    top: 0;
   }
 
   .heading-xl {
