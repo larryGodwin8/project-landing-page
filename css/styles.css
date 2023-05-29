@@ -157,7 +157,7 @@ footer {
 }
 
 /* Mobile Screens Only (max-width size 375px) */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   body {
     background: #faf8f6;
     width: 90%;
@@ -202,9 +202,9 @@ footer {
   }
 
   .curved-line {
-    right: 40px;
+    right: 65px;
     position: absolute;
-    width: 45%;
+    width: 40%;
     top: -15px;
   }
 
