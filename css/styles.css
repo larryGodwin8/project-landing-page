@@ -312,7 +312,6 @@ footer {
   .face {
     margin-left: 10px;
     margin-right: 5px;
-    background: #172339;
   }
 
   .twit{
@@ -328,7 +327,7 @@ footer {
   }
 
   .copy {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-size: 15px;
     line-height: 32px;
     letter-spacing: 0.08px;
