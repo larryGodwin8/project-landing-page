@@ -5,7 +5,13 @@
 }
 
 body {
-  background: #faf8f6;
+  height: 100%;
+  background: linear-gradient(
+    to bottom, 
+    #FAF8F6 0%,
+    #FAF8F6 70%,
+    #F3EDE7 70%,
+    #F3EDE7 100%);
   width: 75%;
   margin: 20px auto;
 }
@@ -115,7 +121,11 @@ footer {
 
 .primary-button:hover {
   border: none;
-  background-image: linear-gradient(to bottom right, #A060FF, #CB30E3, #FFA84E);
+  background-image: linear-gradient(
+    to bottom right, 
+    #A060FF, 
+    #CB30E3, 
+    #FFA84E);
 }
 
 /* Styling the Secondary default button */
@@ -166,12 +176,16 @@ footer {
   border-radius: 6px;
 }
 
-/* Mobile Screens Only (max-width size 375px) */
+/* Mobile Screens Only (max-width size 480px) */
 @media screen and (max-device-width: 480px) {
   body {
-    background: #faf8f6;
     width: 90%;
     margin: 20px auto;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
   }
 
   .logo {
@@ -275,7 +289,7 @@ footer {
   }
 
   .itjstwrk {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -285,7 +299,7 @@ footer {
   }
 
   .ireallylike {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -295,7 +309,7 @@ footer {
   }
 
   .jeremy {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -305,7 +319,7 @@ footer {
   }
 
   .cmo {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -340,9 +354,8 @@ footer {
 }
 
 /* Tablet Screens Only (max-width size 375px) */
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
-  .body {
-    background: #faf8f6;
+@media screen and (min-device-width: 481px) and (max-device-width: 1366px) {
+  body {
     width: 75%;
     margin: 10px auto;
   }
