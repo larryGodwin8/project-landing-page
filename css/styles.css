@@ -5,7 +5,13 @@
 }
 
 body {
-  background: #faf8f6;
+  height: 100%;
+  background: linear-gradient(
+    to bottom, 
+    #FAF8F6 0%,
+    #FAF8F6 70%,
+    #F3EDE7 70%,
+    #F3EDE7 100%);
   width: 75%;
   margin: 20px auto;
 }
@@ -113,6 +119,15 @@ footer {
   font-weight: bold;
 }
 
+.primary-button:hover {
+  border: none;
+  background-image: linear-gradient(
+    to bottom right, 
+    #A060FF, 
+    #CB30E3, 
+    #FFA84E);
+}
+
 /* Styling the Secondary default button */
 .secondary-button {
   background-color: #faf8f6;
@@ -124,6 +139,11 @@ footer {
   text-align: center;
   border-radius: 6px;
   font-weight: bold;
+}
+
+.secondary-button:hover {
+  color: #faf8f6;
+  background-color: #172339;
 }
 
 .hero-1 {
@@ -156,14 +176,17 @@ footer {
   border-radius: 6px;
 }
 
-/* Mobile Screens Only (max-width size 375px) */
+/* Mobile Screens Only (max-width size 480px) */
 @media screen and (max-device-width: 480px) {
   body {
-    background: #faf8f6;
     width: 90%;
     margin: 20px auto;
   }
 
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .logo {
     font-family: "Epilogue", sans-serif;
@@ -266,7 +289,7 @@ footer {
   }
 
   .itjstwrk {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -276,7 +299,7 @@ footer {
   }
 
   .ireallylike {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -286,7 +309,7 @@ footer {
   }
 
   .jeremy {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -296,7 +319,7 @@ footer {
   }
 
   .cmo {
-    font-family: Epilogue;
+    font-family: "Epilogue";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -331,9 +354,8 @@ footer {
 }
 
 /* Tablet Screens Only (max-width size 375px) */
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
-  .body {
-    background: #faf8f6;
+@media screen and (min-device-width: 481px) and (max-device-width: 1366px) {
+  body {
     width: 75%;
     margin: 10px auto;
   }
@@ -482,7 +504,7 @@ footer {
     justify-content: center;
     text-align: center;
     color: #faf8f6;
-    top:-250px;
+    top: -250px;
   }
 
   .itjstwrk {
@@ -516,9 +538,7 @@ footer {
     letter-spacing: -0.18px;
     color: #faf8f6;
     flex-direction: row;
-    
   }
-
 
   .curved-line-2 {
     margin: 10px auto 32px;
@@ -538,5 +558,210 @@ footer {
     margin-left: 10px;
     margin-right: 5px;
   }
+}
 
+@media screen and (min-device-width: 1366px) {
+  .body {
+    background: #faf8f6;
+    width: 75%;
+    margin: 10px auto;
+  }
+
+  footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-family: "Epilogue", sans-serif;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 8px;
+    font-weight: bold;
+    letter-spacing: -0.44px;
+    text-decoration: none;
+    color: #172339;
+    width: 78.41px;
+  }
+
+  .secondary-button {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.16px;
+  }
+
+  .curved-line {
+    left: 290px;
+    position: relative;
+    width: 245px;
+    top: 0;
+  }
+
+  .heading-xl {
+    text-align: left;
+    font-family: "Epilogue";
+    font-size: 72px;
+    line-height: 78px;
+    letter-spacing: -1px;
+    color: #172339;
+    width: 670px;
+  }
+
+  .primary-button {
+    font-size: 18px;
+    width: 226px;
+    height: 60px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+  }
+
+  .hero-image {
+    display: block;
+    width: 280px;
+  }
+
+  .hero-image-mobile {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .hero-1 {
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  .hero-2 {
+    width: 35%;
+    z-index: -10;
+    position: relative;
+    left: -90px;
+    bottom: -70px;
+  }
+
+  .group-person {
+    position: relative;
+    display: flex;
+    width: 50%;
+  }
+
+  .person-div {
+    border-radius: 10px;
+    margin-top: 250px;
+    width: 100%;
+    display: flex;
+    height: 590px;
+  }
+
+  .hero-3 {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    margin-top: 15%;
+  }
+
+  .jeremy-img {
+    position: relative;
+    top: -80px;
+    left: -100%;
+    width: 400px;
+    height: 670px;
+  }
+
+  .group-person-text {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 10px;
+    color: #faf8f6;
+    margin-left: 10%;
+  }
+
+  .curved-line-2 {
+    position: absolute;
+    left: -25%;
+    top: 30%;
+    width: 20%;
+  }
+
+  .itjstwrk {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.416667px;
+    color: #faf8f6;
+    text-align: right;
+    height: 56px;
+  }
+
+  .ireallylike {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #f3ede7;
+    line-height: 35px;
+    width: 344px;
+    height: 160px;
+  }
+  .pattern-blur {
+    position: relative;
+  }
+
+  .face {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .twit {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .insta {
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  .jeremy {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #faf8f6;
+    flex-direction: row;
+    margin-top: 65px;
+    height: 32px;
+  }
+
+  .cmo {
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2.5px;
+    color: #f3ede7;
+    margin-top: -20px;
+  }
 }
