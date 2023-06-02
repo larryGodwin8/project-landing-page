@@ -575,7 +575,7 @@ footer {
   }
 
   .curved-line {
-    left: 240px;
+    left: 290px;
     position: relative;
     width: 245px;
     top: 0;
@@ -588,7 +588,7 @@ footer {
     line-height: 78px;
     letter-spacing: -1px;
     color: #172339;
-    width: 520px;
+    width: 670px;
   }
 
   .primary-button {
@@ -623,8 +623,8 @@ footer {
     width: 35%;
     z-index: -10;
     position: relative;
-    left: -140px;
-    bottom: -40px;
+    left: -90px;
+    bottom: -70px;
  }
 
  .group-person {
@@ -636,9 +636,92 @@ footer {
 
 .person-div {
   border-radius: 10px;
-  margin-top: 210px;
+  margin-top: 250px;
   width: 100%;
-  height: 720px;
+  height: 590px;
+}
+
+.hero-3 {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+}
+
+.jeremy-img {
+  position: relative;
+  top: 100px;
+  left: -490px;
+  width: 400px;
+  height: 670px;
+
+}
+
+.group-person-text {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  color: #faf8f6;
+  top:-250px;
+}
+
+.group-person-text {
+  text-align: left;
+  color: #faf8f6;
+  padding: 10px;
+}
+
+.curved-line-2 {
+  margin: 10px auto 32px;
+  width: 100px;
+}
+
+.itjstwrk {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.416667px;
+  color: #faf8f6;
+}
+
+.ireallylike {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.09px;
+  color: #f3ede7;
+  line-height: 24px;
+  width: 548px;
+  height: 96px;
+}
+.pattern-blur {
+  position: relative;
+}
+
+.face {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.twit {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.insta {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.footer {
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+height: 120px;
 }
 
 }
