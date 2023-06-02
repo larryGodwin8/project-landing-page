@@ -354,7 +354,7 @@ footer {
 }
 
 /* Tablet Screens Only (max-width size 375px) */
-@media screen and (min-device-width: 481px) and (max-device-width: 1366px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 1365px) {
   body {
     width: 75%;
     margin: 10px auto;
@@ -663,6 +663,10 @@ footer {
     justify-content: space-between;
     width: 100px;
     margin-top: 15%;
+  }
+
+  .hero-3 > p  {
+    align-items: center;
   }
 
   .jeremy-img {
