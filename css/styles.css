@@ -674,7 +674,7 @@ footer {
 }
 
 .curved-line-2 {
-  margin: 10px auto 32px;
+  margin: -350px auto 60px;
   width: 100px;
 }
 
@@ -686,6 +686,7 @@ footer {
   line-height: 56px;
   letter-spacing: -0.416667px;
   color: #faf8f6;
+  text-align: right;
 }
 
 .ireallylike {
@@ -695,9 +696,9 @@ footer {
   font-size: 18px;
   letter-spacing: 0.09px;
   color: #f3ede7;
-  line-height: 24px;
-  width: 548px;
-  height: 96px;
+  line-height: 30px;
+  width: 344px;
+  height: 130px;
 }
 .pattern-blur {
   position: relative;
@@ -724,4 +725,24 @@ justify-content: space-between;
 height: 120px;
 }
 
+.jeremy {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  color: #faf8f6;
+  flex-direction: row;
+}
+
+.cmo {
+  font-family: Epilogue;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 2.5px;
+  color: #f3ede7;
+}
 }
